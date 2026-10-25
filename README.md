@@ -61,6 +61,4 @@ For a more convenient development workflow, use the Live Server extension in Vis
 - Add a restart button.
 - Make the game responsive for different screen sizes.
 
-## Author
 
-Created as a JavaScript learning project.
