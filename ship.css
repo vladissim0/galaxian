@@ -1,0 +1,75 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 24px;
+  background: #101522;
+  color: #f4f7ff;
+  font-family: Arial, sans-serif;
+}
+
+.game-layout {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+
+.game-field {
+  position: relative;
+  width: 320px;
+  height: 440px;
+  background: black;
+  border: 2px solid #586780;
+  overflow: hidden;
+}
+
+
+.ship {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+
+.player {
+  background: green;
+  bottom: 0;
+  left: 120px;
+}
+
+.settings {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 160px;
+}
+
+button,
+select {
+  padding: 8px;
+  cursor: pointer;
+}
+
+
+.laser {
+  position: absolute;
+  width: 6px;
+  height: 20px;
+  background-color: #ffeb3b;
+  border-radius: 3px;
+  box-shadow: 0 0 8px #ffeb3b;
+}
+
+
+.enemy {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #ff5263;
+  border: 2px solid #ff9aa5;
+  border-radius: 6px;
+}
